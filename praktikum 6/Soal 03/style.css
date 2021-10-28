@@ -1,0 +1,116 @@
+body {
+    background-color: #0f4c5c;
+}
+#all {
+    font-family: 'Poppins', sans-serif;
+}
+#a {
+    background-color: #e36414;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    min-height: 40px;
+    max-height: 40px;
+    width: auto;
+    z-index: 1;
+    padding-top: 10px;
+}
+.b {
+    background-color: #fb8b24;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 40px;
+    max-height: 40px;
+    min-height: 180px;
+    width: auto;
+    z-index: 2;
+}
+.c {
+    background-color: #e36414;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    min-height: 40px;
+    max-height: 40px;
+    width: auto;
+    margin-top: 220px;
+    z-index: 1;
+    padding-top: 20px;
+}
+#li1 {
+    display: inline;
+    font-size: 16px;
+    margin-left: 40px;
+}
+#li2 {
+    display: inline;
+    font-size: 16px;
+    margin-right: 40px;
+    float: right;
+}
+#li3 {
+    display: inline;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.link {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+}
+.link2 {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #e36414;
+}
+#judul {
+    font-size: 62px;
+    font-weight: lighter;
+    margin-top: 35px;
+    text-align: center;
+}
+#isi {
+    margin-top: 300px;
+    position: absolute;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-bottom: 200px;
+    color: white;
+}
+.header {
+    padding-top: 40px;
+    font-size: 33px;
+    font-weight: 100px;
+}
+p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+#li1:hover {
+    color: #5f0f40;
+}
+#li2:hover {
+    color: #5f0f40;
+}
+#li3:hover {
+    color: #5f0f40;
+}
+#bawah {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    right: 20px;
+    bottom: 20px;
+    background-color: #5f0f40;
+    color: #e36414;
+    position: fixed;
+    z-index: 3;
+    text-align: center;
+}
+#back {
+    margin-top: 45px;
+    font-size: 19px;
+}
